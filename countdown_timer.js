@@ -30,7 +30,7 @@ class CountdownTimer extends Component {
     formatFunc: PropTypes.func,
     tickCallback: PropTypes.func,
     completeCallback: PropTypes.func
-  },
+  };
 
   getDefaultProps = () => {
     return {
